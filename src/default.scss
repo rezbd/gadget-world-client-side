@@ -4,9 +4,16 @@ html {
 
 html,
 body {
-    height: 100%;
     margin: 0;
     padding: 0;
+}
+
+html,
+body,
+#root,
+.App
+{
+    height: 100%;
 }
 
 *, ::before, ::after{
@@ -29,4 +36,12 @@ a, a:hover {
     transition: all .4s ease-in-out;
     -webkit-transition: all .4s ease-in-out;
     -moz-transition: all .4s ease-in-out;
+}
+
+.main {
+    width: 100%;
+    height: calc(100% - 6.5rem); //to avoid vertical scrollbar
+    max-width: 1450px;
+    padding: 0 10rem;
+    margin: 0 auto;
 }
