@@ -1,7 +1,7 @@
 import React from 'react';
 // purpose of this component to have two images with two links
 import './styles.scss';
-import phone from '../../images/phone.png';
+import phone from '../../images/phones.jpg';
 import computer from '../../images/computer.jpg';
 
 const Directory = props => {
